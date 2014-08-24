@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=1024, user-scalable=no">
+
+  <title>Blendle ❤️ NU.nl</title>
+
+  <!-- Required stylesheet -->
+  <link rel="stylesheet" media="screen" href="core/deck.core.css">
+
+  <!-- Extension CSS files go here. Remove or add as needed. -->
+  <link rel="stylesheet" media="screen" href="extensions/goto/deck.goto.css">
+  <link rel="stylesheet" media="screen" href="extensions/menu/deck.menu.css">
+  <link rel="stylesheet" media="screen" href="extensions/navigation/deck.navigation.css">
+  <link rel="stylesheet" media="screen" href="extensions/status/deck.status.css">
+  <link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">
+
+  <!-- Style theme. More available in /themes/style/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/style/blendle.css">
+
+  <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/transition/horizontal-slide.css">
+
+  <!-- Basic black and white print styles -->
+  <link rel="stylesheet" media="print" href="core/print.css">
+
+  <!-- Required Modernizr file -->
+  <script src="modernizr.custom.js"></script>
+
+</head>
+<body>
+  <div class="deck-container">
+
+    <!-- Begin slides. Just make elements with a class of slide. -->
+
+    <section id="title" class="slide" style="background: #f0543b">
+      <img src="title.png" alt="Blendle ❤️ NU.nl">
+    </section>
+
+    <section id="content" class="slide">
+      <h2>Content</h2>
+      <ul>
+        <li>About Blendle</li>
+        <li>NU.nl &amp; Blendle</li>
+
+        <li>About the widgets.</li>
+        <li>Demo!</li>
+
+        <li>Search, more-like-this</li>
+        <li>A/B Tests</li>
+
+        <li>Blendle Stack
+          <ul>
+            <li>Backend</li>
+            <li>Frontend</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="about-blendle" class="slide">
+      <h2>What is this Blendle?</h2>
+      <p class="slide" id="about-blendle-link">We'll just show you: <a href="https://blendle.nl/" target="_blank">blendle.nl</a>
+    </section>
+
+    <section id="blendle-nunl" class="slide">
+      <h2>Blendle on NU.nl</h2>
+      <p>Related Blendle items.</p>
+      <p>In categories:<ul>
+        <li>Algemeen</li>
+        <li>Binnenland</li>
+        <li>Buitenland</li>
+        <li>Lifestyle</li>
+      </ul></p>
+    </section>
+
+    <section id="widgets" class="slide">
+      <h2>Widgets</h2>
+      <ul>
+        <li><a href="https://widgets.blendle.nl/developers" title="widgets.blendle.nl/developers" target="_blank">widgets.blendle.nl/developers</a></li>
+        <li></li>
+      </ul>
+    </section>
+
+    <section id="widget-demo-title" class="slide" style="background: #f0543b">
+      <h1 style="color:white">Demo!</h1>
+    </section>
+    <section id="widget-demo" class="slide">
+      <h2>Demo!</h2>
+      <p>Pick a website that <i>needs</i> some Blendle related content.</p>
+    </section>
+
+    <section id="search" class="slide">
+      <h2>Search, more-like-this</h2>
+      <ul>
+        <li>Search in Blendle</li>
+        <li>ElasticSearch</li>
+        <li>Basic search, not so basic.</li>
+        <li>
+          More Like This:
+          <ul>
+            <li>Items Based</li>
+            <li>Text Based</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="ab-tests" class="slide">
+      <h2>A/B Tests</h2>
+      <ul>
+        <li>8 Results from ElasticSearch: Which is best?</li>
+        <li>Just try them all!</li>
+        <li>Devide users in 12 groups and try every pair of results.</li>
+        <li>And the pair that scores the most hits in 5 minutes wins!</li>
+      </ul>
+    </section>
+
+    <section id="backend" class="slide">
+      <h2>Blendle Backend Stack</h2>
+      <ul>
+        <li>Linux (using Ansible)</li>
+        <li>Ruby Backend
+          <ul>
+            <li>Sinatra</li>
+            <li>Passenger</li>
+            <li>nginx</li>
+            <li>HAProxy</li>
+          </ul>
+        </li>
+        <li>Databases:
+          <ul>
+            <li>Postgres</li>
+            <li>Redis</li>
+            <li>ElasticSearch</li>
+          </ul>
+        </li>
+        <li>RESTful</li>
+        <li>HAL+json</li>
+        <li>Content hosted on Amazon S3</li>
+      </ul>
+    </section>
+    <section id="frontend" class="slide">
+      <h2>Blendle Frontend Stack</h2>
+      <ul>
+        <li>Hosted via Amazon S3</li>
+        <li>Single Page Web-App</li>
+        <li>...</li>
+      </ul>
+    </section>
+
+    <section id="thanks" class="slide" style="background: #f0543b">
+      <h1 style="color:white">Thanks!</h1>
+    </section>
+
+    <section id="contact" class="slide">
+      <h2>Contact</h2>
+      <ul>
+        <li><h4>Koen Bollen</h4>
+          koen@blendle.nl</li>
+        <li><h4>Rick Pastoor</h4>
+          rick@blendle.nl</li>
+      </ul>
+    </section>
+
+    <!-- End slides. -->
+
+    <!-- Begin extension snippets. Add or remove as needed. -->
+
+    <!-- deck.navigation snippet -->
+    <div aria-role="navigation">
+      <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+      <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+    </div>
+
+    <!-- deck.status snippet -->
+    <p class="deck-status" aria-role="status">
+      <span class="deck-status-current"></span>
+      /
+      <span class="deck-status-total"></span>
+    </p>
+
+    <!-- deck.goto snippet -->
+    <form action="." method="get" class="goto-form">
+      <label for="goto-slide">Go to slide:</label>
+      <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+      <datalist id="goto-datalist"></datalist>
+      <input type="submit" value="Go">
+    </form>
+
+    <!-- End extension snippets. -->
+  </div>
+
+<!-- Required JS files. -->
+<script src="jquery.min.js"></script>
+<script src="core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="extensions/menu/deck.menu.js"></script>
+<script src="extensions/goto/deck.goto.js"></script>
+<script src="extensions/status/deck.status.js"></script>
+<script src="extensions/navigation/deck.navigation.js"></script>
+<script src="extensions/scale/deck.scale.js"></script>
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+  $(function() {
+    $.deck('.slide');
+    $.deck('enableScale')
+  });
+</script>
+</body>
+</html>
