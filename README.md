@@ -1,6 +1,6 @@
 #Blendle Sanoma Knowledge Exchange Talk
 
-The slides for the talk given by Koen Bollen and Rick Pastoor at the Sanoma Knowledge Exchange on August 24, 2014.
+The slides for the talk given by [Koen Bollen](https://twitter.com/KoenIT) and [Rick Pastoor](http://rickpastoor.nl/) at the Sanoma Knowledge Exchange on August 24, 2014.
 
 ##Links
 
