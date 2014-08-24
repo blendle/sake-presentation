@@ -218,7 +218,6 @@ h2 {
   font-weight: bold;
   padding-top: .5em;
   margin: 0 0 .66666em 0;
-  border-bottom: 3px solid #888;
 }
 
 h3 {
@@ -228,7 +227,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.25em;
+  font-size: 1.45em;
   font-weight: bold;
   margin-bottom: .25em;
 }
@@ -290,13 +289,16 @@ li > ol, li > ul {
   width: 100%;
 }
 
+.white {
+  color: #fff;
+}
+
 h1 {
   color: #000;
 }
 
 h2 {
-  color: #F25433;
-  border-bottom-color: #ccc;
+  color: #FFF;
 }
 
 h3 {
@@ -349,7 +351,7 @@ a:hover, a:focus {
 .deck-container {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 1.75em;
-  background: #fff;
+  background: #f0543b;
 }
 .deck-container > .slide {
   padding: 0 48px;
@@ -386,4 +388,15 @@ a:hover, a:focus {
 }
 .deck-menu .deck-current, .no-touch .deck-menu .slide:hover {
   background: #ddf;
+}
+
+.hoofd {
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  color: #fff;
+}
+
+.hoofd:last-child {
+  margin-left: 20px;
 }

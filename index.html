@@ -33,63 +33,66 @@
 <body>
   <div class="deck-container">
 
-    <!-- Begin slides. Just make elements with a class of slide. -->
-
-    <section id="title" class="slide" style="background: #f0543b">
+    <section id="title" class="slide">
       <img src="title.png" alt="Blendle ❤️ NU.nl">
     </section>
 
-    <section id="content" class="slide">
-      <h2>Content</h2>
-      <ul>
-        <li>About Blendle</li>
-        <li>NU.nl &amp; Blendle</li>
-
-        <li>About the widgets.</li>
-        <li>Demo!</li>
-
-        <li>Search, more-like-this</li>
-        <li>A/B Tests</li>
-
-        <li>Blendle Stack
-          <ul>
-            <li>Backend</li>
-            <li>Frontend</li>
-          </ul>
-        </li>
-      </ul>
+    <section id="kiosk" class="slide">
+      <img src="images/blendle-kiosk.png" />
     </section>
 
-    <section id="about-blendle" class="slide">
-      <h2>What is this Blendle?</h2>
-      <p class="slide" id="about-blendle-link">We'll just show you: <a href="https://blendle.nl/" target="_blank">blendle.nl</a>
+    <section id="issue" class="slide">
+      <img src="images/blendle-issue.png" />
+    </section>
+
+    <section id="reader" class="slide">
+      <img src="images/blendle-reader.png" />
+    </section>
+
+    <section id="refund" class="slide">
+      <img src="images/blendle-refund.png" />
+    </section>
+
+    <section id="supersympathiek" class="slide">
+      <img src="images/blendle-supersympathiek.png" />
     </section>
 
     <section id="blendle-nunl" class="slide">
-      <h2>Blendle on NU.nl</h2>
-      <p>Related Blendle items.</p>
-      <p>In categories:<ul>
-        <li>Algemeen</li>
-        <li>Binnenland</li>
-        <li>Buitenland</li>
-        <li>Lifestyle</li>
-      </ul></p>
+      <h2 class="vcenter">Bring our content to nu.nl</h2>
+    </section>
+
+    <section id="nu-article" class="slide">
+      <img src="images/nu-article.png" />
+    </section>
+
+    <section id="nu-blendle-suggestions" class="slide">
+      <img src="images/nu-blendle-suggestions.png" />
+    </section>
+
+    <section id="nu-blendle-reader" class="slide">
+      <img src="images/nu-blendle-reader.png" />
+    </section>
+
+    <section id="nu-blendle-supersympathiek" class="slide">
+      <img src="images/nu-blendle-supersympathiek.png" />
+    </section>
+
+    <section id="blendle-widgets" class="slide">
+      <h2 class="vcenter">Embeddables!</h2>
     </section>
 
     <section id="widgets" class="slide">
-      <h2>Widgets</h2>
-      <ul>
-        <li><a href="https://widgets.blendle.nl/developers" title="widgets.blendle.nl/developers" target="_blank">widgets.blendle.nl/developers</a></li>
-        <li></li>
-      </ul>
+      <img src="images/blendle-widget-portal.png" />
     </section>
 
-    <section id="widget-demo-title" class="slide" style="background: #f0543b">
-      <h1 style="color:white">Demo!</h1>
+    <section id="widget-roelvink" class="slide">
+      <h4 class="vcenter">&lt;div class=&quot;blendle-widget&quot; data-widget-type=&quot;<span class="white">search</span>&quot; data-widget-query=&quot;<span class="white">dave roelvink</span>&quot; data-widget-item-template=&quot;&lt;strong&gt;{{item:provider}}&lt;/strong&gt; {{item:title}}&quot;&gt;&lt;/div&gt;<br /><br />
+        &lt;script src="https://widgets.blendle.nl/widget.js" async&gt;&lt;/script&gt;
+</h4>
     </section>
-    <section id="widget-demo" class="slide">
-      <h2>Demo!</h2>
-      <p>Pick a website that <i>needs</i> some Blendle related content.</p>
+
+    <section id="blendle-widgets" class="slide">
+      <h2 class="vcenter">Now it's your turn.</h2>
     </section>
 
     <section id="search" class="slide">
@@ -118,51 +121,21 @@
       </ul>
     </section>
 
-    <section id="backend" class="slide">
-      <h2>Blendle Backend Stack</h2>
-      <ul>
-        <li>Linux (using Ansible)</li>
-        <li>Ruby Backend
-          <ul>
-            <li>Sinatra</li>
-            <li>Passenger</li>
-            <li>nginx</li>
-            <li>HAProxy</li>
-          </ul>
-        </li>
-        <li>Databases:
-          <ul>
-            <li>Postgres</li>
-            <li>Redis</li>
-            <li>ElasticSearch</li>
-          </ul>
-        </li>
-        <li>RESTful</li>
-        <li>HAL+json</li>
-        <li>Content hosted on Amazon S3</li>
-      </ul>
-    </section>
-    <section id="frontend" class="slide">
-      <h2>Blendle Frontend Stack</h2>
-      <ul>
-        <li>Hosted via Amazon S3</li>
-        <li>Single Page Web-App</li>
-        <li>...</li>
-      </ul>
-    </section>
+    <section id="thanks" class="slide">
+      <h2 style="text-align: center">Thanks!</h2>
 
-    <section id="thanks" class="slide" style="background: #f0543b">
-      <h1 style="color:white">Thanks!</h1>
-    </section>
-
-    <section id="contact" class="slide">
-      <h2>Contact</h2>
-      <ul>
-        <li><h4>Koen Bollen</h4>
-          koen@blendle.nl</li>
-        <li><h4>Rick Pastoor</h4>
-          rick@blendle.nl</li>
-      </ul>
+      <div style="text-align: center">
+        <div class="hoofd">
+          <img src="images/koen.jpg" style="border-radius: 50%;" />
+          @KoenIT<br />
+          koen@blendle.nl
+        </div>
+        <div class="hoofd">
+          <img src="images/rick.jpg" style="border-radius: 50%;" />
+          @rickpastoor</br />
+          rick@blendle.nl
+        </div>
+      </div>
     </section>
 
     <!-- End slides. -->
