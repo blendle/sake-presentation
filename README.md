@@ -4,6 +4,6 @@ The slides for the talk given by Koen Bollen and Rick Pastoor at the Sanoma Know
 
 ##Links
 
-Blendle
-Blendle Widget Developer portal
-Elastic Search
+* [Blendle](https://blendle.nl/)
+* [Blendle Widget Developer portal](https://widgets.blendle.nl/developers)
+* [Elastic Search](http://www.elasticsearch.org/)
