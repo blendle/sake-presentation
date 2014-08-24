@@ -6,4 +6,4 @@ The slides for the talk given by [Koen Bollen](https://twitter.com/KoenIT) and [
 
 * [Blendle](https://blendle.nl/)
 * [Blendle Widget Developer portal](https://widgets.blendle.nl/developers)
-* [Elastic Search](http://www.elasticsearch.org/)
+* [Elasticsearch](http://www.elasticsearch.org/)
